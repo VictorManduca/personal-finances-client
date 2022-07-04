@@ -64,7 +64,7 @@ export default {
       return arr
     },
     callApi() {
-      return axios.post('http://localhost:8000', {
+      return axios.post('https://personal-finances-server.herokuapp.com/', {
         income: this.income,
         outcome: this.outcome
       })
